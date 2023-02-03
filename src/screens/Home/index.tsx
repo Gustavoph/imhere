@@ -7,8 +7,8 @@ const participants = ['Gustavo', 'Giovanna', 'Gabriel', 'Daniel', 'Abel']
 
 export function Home() {
 
-  function handleAddParticipant(name: string) {
-    if (participants.includes(name)) {
+  function handleAddParticipant() {
+    if (participants.includes('Gustavo')) {
       return Alert.alert("Participante", "Já existe um participante na lista com esse nome")
     }
   }
